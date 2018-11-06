@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package pb_udp;
+
+message MessageData {
+    bytes remoteID = 1;
+
+}
+
+message PingRequest {
+
+}
+
+
